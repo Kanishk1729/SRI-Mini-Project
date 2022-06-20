@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kdam+Thmor+Pro&family=Pacifico&display=swap');
+/*font-family: 'Cookie', cursive;(for above)*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kdam+Thmor+Pro&family=Noticia+Text:ital@1&family=Pacifico&display=swap');
+
+body{
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+}
+
+ul li{
+    padding: 0 12px;
+}
+
+.logo img{
+    padding: 0 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    object-fit: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgb(241, 164, 10);
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.box{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noticia Text', serif;
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    padding: 28px;
+    background-image: url('../image_res/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1150px 525px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom:0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+#playbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songs{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 350px;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.songs img{
+    width: 45px;
+    margin: 0 10px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 9.5vw;
+    margin: 100px 0;
+}
+
+.songinfo img{
+    margin-top: 16px;
+    opacity: 0;
+    transition: opacity is ease-in;
+}
