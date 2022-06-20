@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="pPrimary">
+          <div class="pHeading"><h1>Registration Form</h1></div>
+          <div class="pBody">
+            <form>
+              <div>
+                <label for="firstname">First name</label>
+                <input type="text" id="firstname" />
+              </div>
+              <br />
+              <div>
+                <label for="Lastname">Last name</label>
+                <input type="text" id="Lastname" />
+              </div>
+              <br />
+              <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" />
+              </div>
+              <br />
+              <div>
+                <p>Please select your favorite Web language:</p>
+                <input
+                  type="radio"
+                  id="html"
+                  name="fav_language"
+                  value="HTML"
+                />
+                <label for="html">HTML</label><br />
+                <input
+                  type="radio"
+                  id="css"
+                  name="fav_language"
+                  value="CSS"
+                /><label for="css">CSS</label><br />
+                <input
+                  type="radio"
+                  id="javascript"
+                  name="fav_language"
+                  value="JavaScript"
+                />
+                <label for="javascript">JavaScript</label>
+              </div>
+              <br />
+              <div>
+                <label for="psw"><b>Password</b></label>
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  name="psw"
+                  id="psw"
+                  required
+                />
+              </div>
+              <br />
+              <div>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input
+                  type="password"
+                  placeholder="Repeat Password"
+                  name="psw-repeat"
+                  id="psw-repeat"
+                  required
+                />
+              </div>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
